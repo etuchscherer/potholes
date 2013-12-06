@@ -103,6 +103,7 @@ GEM
     multi_json (1.8.2)
     multi_xml (0.5.5)
     orm_adapter (0.4.0)
+    pg (0.17.0)
     polyglot (0.3.3)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
@@ -198,6 +199,7 @@ DEPENDENCIES
   grape
   jbuilder (~> 1.2)
   jquery-rails
+  pg
   pry-rails
   rails (= 4.0.1)
   random_data
