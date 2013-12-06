@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  location: MyString
+  status: MyString
+  postal_code: MyString
+  reporter_id: 1
+  official_id: 1
+  active: false
+
+two:
+  location: MyString
+  status: MyString
+  postal_code: MyString
+  reporter_id: 1
+  official_id: 1
+  active: false
