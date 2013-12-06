@@ -1,6 +1,6 @@
 class PotholesController < ApplicationController
   before_action :set_pothole, only: [:show, :edit, :update, :destroy]
-
+  before_filter :authenticate_user!
   # GET /potholes
   # GET /potholes.json
   def index
